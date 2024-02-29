@@ -9,7 +9,7 @@ library(RColorBrewer)
 library(ggpubr)
 library(progress)
 
-pwd <- c()
+pwd <- c('')
 setwd(pwd)
 source("R/fn.R")
 
@@ -19,7 +19,7 @@ source("R/fn.R")
 
 analysis_name = c("methods_comparison")
 set.seed(21)
-PRM_file = c("analyses/experiment4/protein_data_imputated.csv")
+PRM_file = c("analyses/experiment4_rerun/protein_data_imputated.csv")
 DDA_file = c("data/method_comparison_dda.csv")
 DIA_file = c("data/method_comparison_dia.csv")
 DIAn_file = c("data/method_comparison_dia_normalized.csv")
